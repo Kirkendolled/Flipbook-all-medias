@@ -135,11 +135,11 @@ img {
         width: 70vw;
         height: 40vh;
         transform: translateX(0) !important;
-        perspective: 800px; /* Adjusted perspective for smaller screens */
+        perspective: 600px; /* Adjusted perspective for smaller screens */
     }
 
     .paper {
-        perspective: 800px; /* Adjusted perspective for smaller screens */
+        perspective: 600px; /* Adjusted perspective for smaller screens */
     }
 
     .front, .back {
