@@ -145,6 +145,7 @@ img {
         height: auto;
         perspective: none !important;
         transform: none !important;
+        margin-bottom: 20px; /* Added margin to separate pictures */
     }
 
     .front, .back, .front-content, .back-content {
