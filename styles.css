@@ -146,6 +146,7 @@ img {
         perspective: none !important;
         transform: none !important;
         margin-bottom: 20px; /* Added margin to separate pictures */
+        display: none; /* Hide all pages initially */
     }
 
     .front, .back, .front-content, .back-content {
