@@ -137,7 +137,6 @@ img {
         height: auto;
         transform: none !important;
         perspective: none !important;
-        overflow: hidden;
     }
 
     .paper {
@@ -147,63 +146,6 @@ img {
         perspective: none !important;
         transform: none !important;
         display: none; /* Hide all pages initially */
-    }
-
-    .front, .back, .front-content, .back-content {
-        position: relative;
-        width: 100%;
-        height: auto;
-        transform: none !important;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-
-    button {
-        margin: 10px;
-        transform: none !important;
-    }
-
-    i {
-        font-size: 24px;
-    }
-}
-
-/* Adjustments for very small screens */
-@media only screen and (max-width: 480px) {
-    i {
-        font-size: 20px;
-    }
-}
-
-
-/* Media queries starts here
-
-/* Media queries for responsive design 
-@media only screen and (max-width: 768px) {
-    body {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        padding-top: 20px;
-    }
-
-    .book {
-        width: 100vw;
-        height: auto;
-        transform: none !important;
-        perspective: none !important;
-    }
-
-    .paper {
-        position: relative;
-        width: 100%;
-        height: auto;
-        perspective: none !important;
-        transform: none !important;
     }
 
     .front, .back, .front-content, .back-content {
@@ -237,10 +179,9 @@ img {
     }
 }
 
-/* Adjustments for very small screens 
+/* Adjustments for very small screens */
 @media only screen and (max-width: 480px) {
     i {
         font-size: 20px;
     }
 }
-*\
