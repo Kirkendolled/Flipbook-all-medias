@@ -119,34 +119,5 @@ function goPrevPage() {
         }
     } else {
         if (currentLocation > 1) {
-            currentLocation--;
-            showPage(currentLocation);
-        }
-    }
-}
+      
 
-function showPage(pageNumber) {
-    papers.forEach((paper, index) => {
-        if (index === pageNumber - 1) {
-            paper.style.display = "block";
-        } else {
-            paper.style.display = "none";
-        }
-    });
-}
-
-// Initial setup to show the first page on mobile
-if (window.innerWidth <= 768) {
-    showPage(currentLocation);
-}
-
-// Event listener to handle resize events
-window.addEventListener('resize', function () {
-    if (window.innerWidth <= 768) {
-        // Ensure only the current page is displayed on mobile
-        showPage(currentLocation);
-    } else {
-        // Reset to the original flipbook view on desktop
-        resetPages();
-    }
-});

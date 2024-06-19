@@ -155,14 +155,6 @@ img {
         transform: none !important;
     }
 
-    .back {
-        transform: none !important;
-    }
-
-    .flipped .front, .flipped .back {
-        transform: none !important;
-    }
-
     img {
         width: 100%;
         height: auto;
