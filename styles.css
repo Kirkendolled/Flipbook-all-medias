@@ -128,12 +128,12 @@ img {
     body {
         flex-direction: column;
         justify-content: flex-start;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .book {
-        width: 90vw;
-        height: 60vh;
+        width: 70vw;
+        height: 40vh;
         transform: translateX(0) !important;
         perspective: 800px; /* Adjusted perspective for smaller screens */
     }
@@ -189,7 +189,7 @@ img {
 /* Adjustments for very small screens */
 @media only screen and (max-width: 480px) {
     .book {
-        width: 100vw;
+        width: 75vw;
         height: 50vh;
     }
 
