@@ -135,16 +135,16 @@ img {
         width: 90vw;
         height: 60vh;
         transform: translateX(0) !important;
-        perspective: 1000px; /* Adjusted perspective for smaller screens */
+        perspective: 800px; /* Adjusted perspective for smaller screens */
     }
 
     .paper {
-        perspective: 1000px; /* Adjusted perspective for smaller screens */
+        perspective: 800px; /* Adjusted perspective for smaller screens */
     }
 
     .front, .back {
-        width: 100%;
-        height: 100%;
+        width: 60%;
+        height: 60%;
         transform-origin: left;
     }
 
@@ -168,8 +168,8 @@ img {
     }
 
     .front-content, .back-content {
-        width: 100%;
-        height: 100%;
+        width: 60%;
+        height: 60%;
         display: flex;
         justify-content: center;
         align-items: center;
